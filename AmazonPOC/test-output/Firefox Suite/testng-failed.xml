@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Firefox Suite]">
+  <parameter name="testBedName" value="Firefox"/>
+  <listeners>
+    <listener class-name="com.etouch.amazon.listener.SuiteListener"/>
+  </listeners>
+  <test name="Firefox Test(failed)">
+    <classes>
+      <class name="com.etouch.amazon.pages.test.TestAmazonMainPage">
+        <methods>
+          <include name="printTimeStart"/>
+          <include name="loadConfig"/>
+          <include name="tearDown"/>
+          <include name="testPreSignIn"/>
+          <include name="printTimeTaken"/>
+          <include name="prepareBeforeClass"/>
+        </methods>
+      </class> <!-- com.etouch.amazon.pages.test.TestAmazonMainPage -->
+    </classes>
+  </test> <!-- Firefox Test(failed) -->
+</suite> <!-- Failed suite [Firefox Suite] -->

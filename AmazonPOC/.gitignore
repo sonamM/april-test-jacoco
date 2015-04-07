@@ -1,0 +1,19 @@
+#/target#
+#/target/#
+#/test-output/#
+#/test-output/*#
+<<<<<<< HEAD
+#/XSLT_Reports/*#
+=======
+/XSLT_Reports/*
+>>>>>>> 4aa936afb91ebcbc8e83ec18f988fef3f54fb035
+
+*.class
+*.classpath
+
+
+# Package Files #
+*.jar
+*.war
+*.ear
+/target/

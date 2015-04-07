@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [iPhoneNativeSuite]">
+  <parameter name="testBedName" value="iPhoneNative"/>
+  <listeners>
+    <listener class-name="com.etouch.report.TestNGReporter"/>
+  </listeners>
+  <test name="iPhoneNative Test(failed)">
+    <classes>
+      <class name="com.etouch.amazon.common.iOSDeviceTest">
+        <methods>
+          <include name="printTimeStart"/>
+          <include name="loadConfig"/>
+          <include name="testGoogle"/>
+          <include name="printTimeTaken"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.etouch.amazon.common.iOSDeviceTest -->
+    </classes>
+  </test> <!-- iPhoneNative Test(failed) -->
+</suite> <!-- Failed suite [iPhoneNativeSuite] -->

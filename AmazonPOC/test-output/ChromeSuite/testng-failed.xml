@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ChromeSuite]">
+  <parameter name="testBedName" value="Chrome"/>
+  <listeners>
+    <listener class-name="com.etouch.report.TestNGReporter"/>
+  </listeners>
+  <test name="Chrome Test(failed)">
+    <classes>
+      <class name="com.etouch.amazon.pages.test.TestAmazonMainPage">
+        <methods>
+          <include name="printTimeStart"/>
+          <include name="loadConfig"/>
+          <include name="tearDown"/>
+          <include name="testSignIn"/>
+          <include name="testPreSignIn"/>
+          <include name="printTimeTaken"/>
+          <include name="prepareBeforeClass"/>
+        </methods>
+      </class> <!-- com.etouch.amazon.pages.test.TestAmazonMainPage -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+</suite> <!-- Failed suite [ChromeSuite] -->
